@@ -1,0 +1,23 @@
+Algoritmo "FAIXA_VALOR"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+//
+// Descrição   : APRESENTA MENSAGEM CASO VALORES INFORMADOS ESTEJAM
+//FORA DA FAIZA
+// Autor(a)    : DOUGLAS DE MOURA BEZERRA
+// Data atual  : 05/11/2019
+Var
+   NUMERO:INTEIRO
+
+
+Inicio
+   ESCREVAL("DIGITE UM NUMERO: ")
+   LEIA(NUMERO)
+
+   SE (NUMERO >= 1) E (NUMERO <= 9)  ENTAO
+      ESCREVAL("O VALOR ESTA NA FAIXA PERMITIDA")
+   SENAO
+      ESCREVAL("O VALOR ESTA FORA DA FAIXA")
+   FIMSE
+
+
+Fimalgoritmo
