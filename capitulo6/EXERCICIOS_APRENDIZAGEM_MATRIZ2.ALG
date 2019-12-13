@@ -1,0 +1,26 @@
+Algoritmo "EXERCICIOS_APRENDIZAGEM_MATRIZ2"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+//
+// Descrição   :  LER CINCO VALORES, ADC A MATRIZ A, E SOMAR OS
+//VALORES IMPARES
+// Autor(a)    : DOUGLAS DE MOURA BEZERRA
+// Data atual  : 18/11/2019
+Var
+   I, SOMA:INTEIRO
+   MA: VETOR [1..5] DE INTEIRO
+
+
+Inicio
+   ESCREVAL("DIGITE 5 VALORES: ")
+   PARA I DE 1 ATE 5 PASSO 1 FACA
+      LEIA(MA[I])
+   FIMPARA
+
+   PARA I  DE 1 ATE 5 PASSO 1 FACA
+      SE (MA[I] % 2) <> 0 ENTAO
+         SOMA <- SOMA + MA[I]
+      FIMSE
+   FIMPARA
+
+   ESCREVAL("SOMA DOS VALORES IMPARES DA MATRIZ: ", SOMA)
+Fimalgoritmo

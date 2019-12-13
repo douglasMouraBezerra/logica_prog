@@ -1,0 +1,35 @@
+Algoritmo "MUTIPLICANDO_MATRIZ"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+//
+// Descrição   : LER 8 ELEM INTEIROS EM MATRIZ A, CRIAR MATRIZ B
+// COM MESMA DIMENSAO COM ELEM DA MATRIZ A MULT POR 3
+// Autor(a)    : DOUGLAS DE MOURA BEZERRA
+// Data atual  : 19/11/2019
+Var
+   I:INTEIRO
+   A:VETOR[1..8] DE INTEIRO
+   B:VETOR[1..8] DE INTEIRO
+
+
+Inicio
+   ESCREVAL("DIGITE OITO NUMEROS PARA A MATRIZ A: ")
+   PARA I DE 1 ATE 8 PASSO 1 FACA
+      LEIA(A[I])
+   FIMPARA
+
+   ESCREVAL("MONTANDO A MATRIZ B COM ELEMENTOS DE A * 3:")
+
+   PARA I DE 1 ATE 8 PASSO 1 FACA
+      B[I] <- A[I] * 3
+   FIMPARA
+
+
+   ESCREVAL("MATRIZ B: ")
+   PARA I DE 1 ATE 8 PASSO 1 FACA
+      ESCREVAL(B[I])
+   FIMPARA
+
+
+
+
+Fimalgoritmo
