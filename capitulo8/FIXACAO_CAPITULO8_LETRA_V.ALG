@@ -60,7 +60,7 @@ Inicio
          escreval("L:",i," | C:",j," | V:",c[i,j])
       fimpara
       escreval("-------------------------")
-   fimpara
+   fimpara  
 
 
 
