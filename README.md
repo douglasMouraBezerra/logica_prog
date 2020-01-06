@@ -1,8 +1,7 @@
-# logica_prog
+# ALGORITMOS
 
-# Resolucao de alguns exercicios do livro de
-# lógica para Desenvolvimento de Programacao de Computadores.
-# 
+### Resolução de alguns exercicios do livro Lógica para Desenvolvimento de Programação de Computadores.
+##### *José Augusto N.G Manzano , Jayr Figueiredo de Oliveira.*
 #
 #
 #
